@@ -1,0 +1,69 @@
+[
+	{
+		"name": "worker1-900X3C-900X3D-900X4C-900X4D",
+		"Edgeserver": {
+			"netAddress": "192.168.0.2",
+			"CPU": {
+				"cpuClock": "1769.043",
+				"cpuUsage": "2.052",
+				"cpuCore": "4",
+				"cpuOccupancy": "39.419"
+			},
+			"RAM": {
+				"totalMemory": "7664",
+				"freeMemory": "4526",
+				"memoryOccupancy": "33.433"
+			},
+			"Storage": {
+				"totalDisk": "62834",
+				"freeDisk": "34482",
+				"diskOccupancy": "42.2"
+			},
+			"connectedDevice": "192.168.0.12"
+		},
+		"Device": {
+			"videoQuality": [
+				"480"
+			],
+			"videoRate": [
+				"22055.105"
+			],
+			"cameraIp": [
+				"192.168.0.12"
+			],
+			"deviceGPS": {
+				"latitude": [
+					"37.61972"
+				],
+				"longitude": [
+					"127.060886"
+				]
+			},
+			"Target": [
+				"Fire"
+			]
+		},
+		"AI": {
+			"DetectObject": [
+				[
+					"Human",
+					"Car"
+				],
+				"Fire",
+				"Knife"
+			],
+			"RequiredResource": {
+				"CPU": [
+					"1.276",
+					"2.15",
+					"1.04"
+				],
+				"RAM": [
+					"265",
+					"1677",
+					"1740"
+				]
+			}
+		}
+	}
+]
